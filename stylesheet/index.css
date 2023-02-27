@@ -1,0 +1,15 @@
+h1 {
+    color: rgb(158, 193, 182);
+    font-family: verdana;
+    font-size: 300%;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+  }
+
+  body {
+    background-color: rgb(235, 250, 243);
+  }
