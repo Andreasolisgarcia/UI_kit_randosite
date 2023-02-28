@@ -1,15 +1,108 @@
-h1 {
-    color: rgb(158, 193, 182);
+/* neutral body elements*/
+.neutral {
+    color: rgb(207, 217, 214);
     font-family: verdana;
-    font-size: 300%;
+    font-size: 200%;
+}
+.margin {
+  background-color: rgb(252, 252, 252);
+  margin-bottom: 20px; /* Set the margin for the bottom side only */
+  margin-left: 100px; /* Center the body element horizontally */
+  margin-right: auto; /* Center the body element horizontally */
+}
+
+
+
+/* swatches */
+.space {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px; 
+}
+.container {
+  display: flex; /* use flexbox */
+  flex-wrap: wrap; /* allow the squares to wrap */
+  width: 20 vw; /* increase the width to 20vw or more */
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .square {
-    width: 100px;
-    height: 100px;
-    background-color: blue;
+  width: 8%; /* divide the width of the container into 5 squares */
+  height: 60px; /* set the height to your desired size */
+   /* add some margin between the squares */
+}
+
+/* fonts*/
+p{
+  font-family: Golos Text;
+  font-size: 150%;
+}
+
+h1{
+  font-family: Readex Pro;
+  font-size: 200%;
+}
+
+
+  .card {
+    width: 17vw;
+ }
+
+  .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding-top: 20px; /* add padding to the top of the container */
+    padding-bottom: 20px; /* add padding to the bottom of the container */
+    border-radius: 10px; /* Add rounded corners */
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
   }
 
-  body {
-    background-color: rgb(235, 250, 243);
+  .my-button{
+    font-family: Readex Pro;
+    border-color:transparent ;
+    border-radius: 30px; /* Set the radius of the corners */
+    padding: 10px 20px; /* Add padding to the button */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Display the button as an inline block element */
+    font-size: 16px; /* Set the font size */
+    margin: 10px; /* Add margin to the button */
+    cursor: pointer; /* Add cursor pointer to show the button is clickable */
   }
+  
+  .my-button:hover  {
+    border-color:transparent; /* Set the background color on hover */
+  }
+
+  .my-button-black {
+    color: white; /* Set the font color */
+    background-color:rgba(13, 12, 10, 1) ; /* Set the background color */
+  }
+  .my-button-black:hover  {
+    background-color:rgba(129, 130, 150, 1);
+  }
+
+
+
+
+  .my-button-beige{
+    background-color:rgba(253, 238, 219, 1) ; /* Set the background color */
+    color: rgb(3, 3, 3); /* Set the font color */
+  }
+  
+  .my-button-beige:hover  {
+    background-color: rgba(155, 170, 190, 1);
+  }
+
+
