@@ -67,7 +67,7 @@ h1, h2{
   .container {
     padding: 2px 16px;
   }
-
+  /* buttons */
   .my-button{
     font-family: Readex Pro;
     border-color:transparent ;
@@ -92,9 +92,6 @@ h1, h2{
   .my-button-black:hover  {
     background-color:rgba(129, 130, 150, 1);
   }
-
-
-
 
   .my-button-beige{
     background-color:rgba(253, 238, 219, 1) ; /* Set the background color */
@@ -123,7 +120,7 @@ h1, h2{
   background-color:rgba(62, 66, 41, 1) ;
   color: white;
 }
-
+/* search bar */
 .bar {
   max-width: 300px; /* Set the maximum width of the search bar */
   /* margin: 0 auto;This centers the element horizontally within its parent element. */
@@ -180,5 +177,40 @@ h1, h2{
 
 .banner h1{
   font-size: 300%;
-  
 }
+
+.navbar-container{
+  background-color: rgb(227, 233, 242);
+  border-radius: 20px;
+}
+.site-navbar{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.site-navbar a{
+  color: rgb(31, 8, 8);
+  font-size: 100%;
+  font: Readex Pro;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.site-navbar ul {
+  display: flex;
+  align-items: center;
+}
+
+nav a:hover {
+  background-color: #faf1f1; /* change the background color */
+  color: rgb(0, 0, 0); /* change the text color */
+  font-weight: bold; /* add bold font weight */
+  border-radius: 20px;
+}
+
+
+
+
