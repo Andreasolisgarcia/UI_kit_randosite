@@ -179,8 +179,9 @@ h1, h2{
   font-size: 300%;
 }
 
+/* nav bar site */
 .navbar-container{
-  background-color: rgb(227, 233, 242);
+  background-color: rgb(215, 237, 255);
   border-radius: 20px;
 }
 .site-navbar{
@@ -204,13 +205,42 @@ h1, h2{
   align-items: center;
 }
 
-nav a:hover {
-  background-color: #faf1f1; /* change the background color */
+.site-navbar a:hover {
+  background-color: rgb(196, 215, 240); /* change the background color */
   color: rgb(0, 0, 0); /* change the text color */
   font-weight: bold; /* add bold font weight */
   border-radius: 20px;
 }
+.navbar-container2{
+  background-color: rgba(130, 119, 60, 1);
+  border-radius: 20px;
+}
+.site-navbar2{
+  display: flex;
+  justify-content: flex-start;
+}
 
+.site-navbar2 a{
+  color: rgb(31, 8, 8);
+  font-size: 100%;
+  font: Readex Pro;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.site-navbar2 ul {
+  display: flex;
+  align-items: center;
+}
+.site-navbar2 a:hover {
+  background-color: rgba(253, 238, 219, 1); /* change the background color */
+  color: rgb(0, 0, 0); /* change the text color */
+  font-weight: bold; /* add bold font weight */
+  border-radius: 20px;
+}
 
 
 
