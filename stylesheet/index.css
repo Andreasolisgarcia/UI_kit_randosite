@@ -39,7 +39,7 @@ p{
   font-size: 150%;
 }
 
-h1{
+h1, h2{
   font-family: Readex Pro;
   font-size: 200%;
 }
@@ -102,7 +102,83 @@ h1{
   }
   
   .my-button-beige:hover  {
-    background-color: rgba(155, 170, 190, 1);
+    background-color: rgba(225, 214, 218, 1);
   }
 
 
+.my-button-transparent{
+  background-color: transparent;
+  border-color: lightgrey;
+}
+.my-button-transparent:hover{
+  background-color: rgba(217, 193, 165, 1);
+  color: white;
+}
+
+.my-button-transparent-green{
+  background-color: transparent;
+  border-color: lightgrey;
+}
+.my-button-transparent-green:hover{
+  background-color:rgba(62, 66, 41, 1) ;
+  color: white;
+}
+
+.bar {
+  max-width: 300px; /* Set the maximum width of the search bar */
+  /* margin: 0 auto;This centers the element horizontally within its parent element. */
+  padding: 4px;
+  font-size: 17px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+  border: 0.7px gray solid;
+  border-radius: 20px;
+  box-shadow: 3px 3px 1px gray;
+  background-color: white;
+  text-align: left; /* Align the contents of the search bar to the left */
+}
+
+.bar-text{
+  border-color: transparent;
+}
+.bar-text:focus {
+  outline: none;
+}
+/*The blue border that appears around the input element when it's in focus is the default outline styling for web browsers */
+
+.my-button-search{
+  float: right;
+  font-family: Readex Pro;
+  background-color: transparent;
+  border-color: rgba(212, 163, 159, 1);
+  border-radius: 20px; /* Set the radius of the corners */
+  padding: 5px 9px; /* Add padding to the button */
+  display: inline-block; /* Display the button as an inline block element */
+  font-size: 8px; /* Set the font size */
+  cursor: pointer; /* Add cursor pointer to show the button is clickable */
+}
+.my-button-search:hover{
+ background-color: rgba(65, 150, 112, 0.5);
+}
+
+/* Banner */
+.banner {
+  background-image: url('../images/background.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  display: flex; /* enable flexbox layout */
+  flex-direction: column; /* stack child elements vertically */
+  justify-content: center; /* center child elements vertically */
+  align-items: center; /* center child elements horizontally */
+}
+
+.banner h1, .banner p {
+  margin: 0; /* remove default margins */
+  color: aliceblue;
+}
+
+.banner h1{
+  font-size: 300%;
+  
+}

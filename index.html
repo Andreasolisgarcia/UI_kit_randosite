@@ -15,10 +15,11 @@
           $("#navbar").load("navbar.html");
         });
     </script>
+     <div id="navbar"></div>
 </head>
 <body>
 <div class="margin">
-    <div id="navbar"></div>
+   
     <h1 class="neutral">COLORS</h1> 
 
 <div class="space">
@@ -56,23 +57,17 @@
   <h1 class="neutral">BUTTONS</h1>
   <button class="my-button my-button-black">Click me!</button>
   <button class="my-button my-button-beige">Click me!</button>
-
-
-
-
-      
-  
-   
-    <!--
-   <h1>FORM</h1> 
-   <h1>DATEPICKER</h1> 
-   <h1>ALERTS</h1> 
-    MODAL 
-    <div class="square" style="background-color: blue"></div>
-
-  
-    -->
-
+  <p>
+    <button class="my-button my-button-transparent-green">Click me!</button>
+  <button class="my-button my-button-transparent">Click me!</button>
+  </p>
+  <h3 class="neutral">Search bar</h3> 
+    <form action="/search">
+      <div class="bar">
+        <input class="bar-text" type="text" id="search" name="q" placeholder="Let's visit ...">
+        <button class="my-button-search" type="submit"><img src="images/symboles/loupe_small.png" alt ="search"  width="10" height="10"></button>
+      </div>
+    </form>
 </div>
 </body>
 </html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banner</title>
+    <link rel="stylesheet" href="stylesheet/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Golos+Text">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Readex+Pro">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+        $(function() {
+          $("#navbar").load("navbar.html");
+        });
+    </script>
+<div id="navbar"></div>
+</head>
+<body>
+
+   <div class="banner">
+        <h1>Where do you want to go?</h1>
+        <p>Find the next activity near you !</p>
+            <form action="/search">
+                <div class="bar">
+                <input class="bar-text" type="text" id="search" name="q" placeholder="Let's visit ...">
+                <button class="my-button-search" type="submit"><img src="images/symboles/loupe_small.png" alt ="search"  width="10" height="10"></button>
+                </div>
+            </form>
+    </div>
+
+</body>
+</html>
